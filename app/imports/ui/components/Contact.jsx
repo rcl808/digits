@@ -19,6 +19,9 @@ class Contact extends React.Component {
               <Card.Description>
                 {this.props.contact.description}              </Card.Description>
             </Card.Content>
+            <Card.Content extra>
+              <Link to={`/edit/${this.props.contact._id}`}>Edit</Link>
+            </Card.Content>
           </Card>
     );
   }
