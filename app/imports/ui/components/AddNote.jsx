@@ -7,7 +7,6 @@ import SubmitField from 'uniforms-semantic/SubmitField';
 import HiddenField from 'uniforms-semantic/HiddenField';
 import ErrorsField from 'uniforms-semantic/ErrorsField';
 import { Bert } from 'meteor/themeteorchef:bert';
-import { Meteor } from 'meteor/meteor';
 import PropTypes from 'prop-types';
 
 /** Renders the Page for adding a document. */

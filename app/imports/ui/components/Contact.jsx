@@ -33,9 +33,6 @@ class Contact extends React.Component {
             <Card.Content extra>
               <AddNote owner={this.props.contact.owner} contactId={this.props.contact._id}/>
             </Card.Content>
-            <Card.Content extra>
-              <AddNote owner={this.props.contact.owner} contactId={this.props.contact._id}/>
-            </Card.Content>
           </Card>
     );
   }

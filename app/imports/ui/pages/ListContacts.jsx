@@ -1,6 +1,6 @@
 import React from 'react';
 import { Meteor } from 'meteor/meteor';
-import { Container, Header, Loader} from 'semantic-ui-react';
+import { Container, Header, Loader, Card} from 'semantic-ui-react';
 import { Contacts } from '/imports/api/contact/contact';
 import { Notes } from '/imports/api/note/note';
 import { withTracker } from 'meteor/react-meteor-data';
